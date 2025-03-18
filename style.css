@@ -38,9 +38,10 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 30px;
     background-color: #333;
     /* z-index: 1000; */
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 nav ul {
@@ -93,11 +94,7 @@ p{
     font-size: 1.5rem;
 }
 
-/* #introduction p{
-    text-align: left;
-} */
 
-/* Introduction Section */
 .contentLeft {
     text-align: justify; /* Aligns the content to the left */
     padding: 10px;
@@ -162,12 +159,15 @@ p{
 /* Footer */
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #333;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+footer a{
+    color: #fff;
 }
 
 /* Alternate background colors for sections */
